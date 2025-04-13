@@ -1,0 +1,16 @@
+/*=========
+Basic Reset
+==========*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+}
