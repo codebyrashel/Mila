@@ -117,9 +117,9 @@ header {
     gap: 20px;
 }
 
-.hero-section {
-    /* background-color: black; */
-}
+/* .hero-section {
+    background-color: black;
+} */
 
 .hero-wrapper {
     background-image: url("../images/Hero-section/banner.png");
