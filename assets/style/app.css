@@ -355,3 +355,47 @@ header {
     margin: 0;
     font-weight: 500;
 }
+
+/*-----------Signature Section---------*/
+.signature-section {
+    width: 1400px;
+    height: 447.17px;
+    padding: 100px 90px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.signature-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.signature-img img {
+    height: 79.17px;
+    width: 250px;
+}
+
+.signature-sub {
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.signature-quote {
+    font-size: 20px;
+    max-width: 750px;
+    height: 123px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #000;
+    font-family: serif;
+    margin: 0;
+}
