@@ -12,6 +12,7 @@ Basic Reset
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+    overflow-x: hidden;
     /* color: #fff; */
 }
 
@@ -121,7 +122,7 @@ header {
 }
 
 .hero-wrapper {
-    background-image: url(../images/Hero-section/banner.png);
+    background-image: url("../images/Hero-section/banner.png");
     background-repeat: no-repeat;
     background-position: center;
     /*---top 42 removed----*/
