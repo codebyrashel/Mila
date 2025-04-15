@@ -210,66 +210,66 @@ header {
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-  }
-  
-  .collection-wrapper {
+}
+
+.collection-wrapper {
     max-width: 1400px;
     margin: 0 auto;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .head {
+}
+
+.head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
-  }
-  
-  .head p {
+}
+
+.head p {
     font-size: 24px;
-  }
-  
-  .head button {
+}
+
+.head button {
     background: none;
     border: none;
     font-size: 16px;
     cursor: pointer;
     color: black;
-  }
-  
-  .image-collection {
+}
+
+.image-collection {
     display: flex;
     gap: 20px;
     overflow-x: auto;
     scroll-behavior: smooth;
     padding-bottom: 10px;
     -webkit-overflow-scrolling: touch;
-  }
-  
-  .image-collection::-webkit-scrollbar {
+}
+
+.image-collection::-webkit-scrollbar {
     display: none;
-  }
-  
-  .image-card {
+}
+
+.image-card {
     position: relative;
     flex: 0 0 auto;
     width: 400px;
     height: 600px;
     overflow: hidden;
-  }
-  
-  .image-card img {
+}
+
+.image-card img {
     width: 417px;
     height: 512px;
     object-fit: cover;
-  }
-  
-  .image-card span {
+}
+
+.image-card span {
     position: absolute;
     top: 42%;
     left: 50%;
@@ -278,10 +278,10 @@ header {
     font-size: 27px;
     font-weight: 500;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  }
-  
-  /* Scrollbar under images */
-  .scrollbar {
+}
+
+/* Scrollbar under images */
+.scrollbar {
     height: 5px;
     width: 800px;
     background: #eee;
@@ -289,13 +289,69 @@ header {
     border-radius: 2px;
     position: relative;
     overflow: hidden;
-  }
-  
-  .scrollbar-thumb {
+}
+
+.scrollbar-thumb {
     height: 100%;
     width: 25%;
     background: #999;
     border-radius: 2px;
     transition: transform 0.2s ease;
-  }
-  
+}
+
+
+/*----------Highlight-section-------------*/
+.highlight-section {
+    width: 1400px;
+    height: 920px;
+    margin: 0 auto;
+    background-color: var(--clr-mila);
+    display: flex;
+    gap: 20px;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.image-left,
+.image-right {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-left {
+    width: 530px;
+    height: 760px;
+}
+
+.image-right {
+    width: 690px;
+    height: 760px;
+}
+
+.image-left img,
+.image-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+
+.text-overlay p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0 0 6px;
+    font-weight: 300;
+}
+
+.text-overlay h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+}
