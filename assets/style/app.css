@@ -399,3 +399,128 @@ header {
     font-family: serif;
     margin: 0;
 }
+
+
+/*--------Elite Section-----------*/
+.elite-section {
+    width: 1400px;
+    height: 948px;
+    padding: 0 156px 100px 156px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.elite-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+/* Left Image Block */
+.elite-image-block {
+    width: 544px;
+    height: 695px;
+    padding: 0 35px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elite-image-block img {
+    width: 474px;
+    height: 660px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.caption {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Right Side that holds text + image vertically */
+.elite-right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Text Block */
+.elite-text-block {
+    width: 544px;
+    height: 437px;
+    padding: 100px 35px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.stars {
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #999;
+}
+
+.elite-title {
+    width: 474px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+.elite-description {
+    width: 474px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    margin: 10px 0 20px;
+}
+
+/* Button */
+.elite-button {
+    width: 204px;
+    height: 56px;
+    padding: 18px 30px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.elite-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Bottom Image (3rd div) */
+.elite-side-image-block {
+    width: 544px;
+    height: 381px;
+    padding: 0 35px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elite-side-image-block img {
+    width: 381px;
+    height: 381px;
+    object-fit: cover;
+    border-radius: 4px;
+}
