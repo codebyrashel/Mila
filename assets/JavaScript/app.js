@@ -60,7 +60,7 @@ const sizeBtns = document.querySelectorAll(".size");
 
 let index = 0;
 const visibleCount = 2;
-const imageWidth = 500 + 20; // image + gap
+const imageWidth = 325 + 20; // image width + gap
 
 function updateGallery() {
     const maxIndex = images.length - visibleCount;

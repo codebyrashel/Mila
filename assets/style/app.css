@@ -948,8 +948,8 @@ header {
 
 .main-images-wrapper {
     overflow: hidden;
-    width: 1040px;
-    /* 2 images * 500px + 2 * 20px gap */
+    width: 670px;
+    height: 598px;
 }
 
 .main-images {
@@ -959,8 +959,8 @@ header {
 }
 
 .main-images img {
-    width: 500px;
-    height: auto;
+    width: 325px;
+    height: 598px;
     object-fit: cover;
 }
 
@@ -1061,6 +1061,7 @@ header {
     color: gray;
     font-size: 14px;
 }
+
 
 /*-------------Lookbook Section----------*/
 .lookbook-section {
